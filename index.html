@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Croissant One' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/69364e524b.js" crossorigin="anonymous"></script>
+
+    <title>Disk FastFood</title>
+    
+</head>
+<body>
+    <header class="header-area">
+        <a href="index.html"><h1 class="logo"></h1></a>
+        <button class="btn-menu"><i class="fas fa-bars"></i></button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fas fa-times"></i></a>
+            <ul>
+                <li><a href="#">serviços</a></li>
+                <li><a href="#">quem somos</a></li>
+                <li><a href="#">cardápio</a></li>
+                <li><a href="#">contato</a></li>
+            </ul>
+        </nav>    
+    </header>
+    <section>
+        <div class="capa-disk">
+            <div class="conteudo-capa">
+                <h3>Disk <span class="secundario"> FastFood</span></h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, veritatis dicta rem vitae doloribus ipsum! Quibusdam.</p>
+                <input type="button" value="Saiba mais!">
+            </div>
+
+            <div class="conteudo-delivery">
+                <h3>Conheça o nosso delivery!</h3>
+                <div class="container-conteudo">
+            
+                    <div class="phone"></div>
+                    <div class="lado-direito">
+                        <i class="far fa-calendar-alt"> <span>Quarta a domingo - 19h00 as 22h30</span></i>
+                        <i class="fas fa-shipping-fast"><span>Rápido e seguro</span></i>
+                        <i class="fas fa-trophy"><span>Reconhecimento em todo o pais</span></i>
+                        <i class="fas fa-money-check"><span>Aceitamos todos os cartões</span></i>
+                    </div>
+                    <div class="btn-delivery">
+                        <input type="button" value="Faça o seu pedido">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <script>
+        $(".btn-menu").click(function() {
+            $(".menu").show();
+        });
+        $(".btn-close").click(function() {
+            $(".menu").hide();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+/* Page reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Helvetica;
+    background: #f2f2f2;
+}
+
+/*-------------------*/
+/* Formatting header*/
+
+.header-area {
+    width: 100%;
+    float: left;
+    background: #ffff;
+    padding: 3% 4%;          
+    box-shadow: 1px 1px 6px 1px rgb(209, 209, 209);
+}
+
+.logo {
+    width: 56px;
+    height: 56px;
+    background: url(logo-fast.png) no-repeat;
+    color: #FFF;
+    float: left;
+}
+
+.btn-menu {
+    width: 56px;
+    height: 56px;
+    float: right;
+    color: rgb(0, 18, 39);
+    text-align: center;
+    border-radius: 56px;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    font-size: 30px;
+    outline: none;
+}
+
+/* Formatting menu*/
+
+.menu {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgb(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    display: none;
+    transition: all .5s;
+}
+
+.menu ul{
+    width: 100%;
+    float: left;
+    text-align: center;
+    transition: all .5s;
+}
+
+.menu ul li {
+    padding: 15px;
+}
+
+.menu ul li a {
+    font-size: 25px;
+    color: #FFF;
+    padding: 7px 13px;
+}
+
+.menu ul li a:hover {
+    background: rgb(233, 231, 231);
+}
+
+.btn-close {
+    float: right;
+    margin: 5%;
+    font-size: 30px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+/*main*/
+
+section {
+    width: 100%;
+    padding: 3% 2%;
+}
+
+.capa-disk {
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+} 
+
+.conteudo-capa {
+    padding: 3% 4%;
+    color: #FFF;
+    background: rgb(0, 18, 39) url(fundo-f.png);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.conteudo-capa h3 {
+    font-size: 25px;
+    font-family: Croissant One, Arial;
+}
+
+.secundario {
+    color: yellow;
+}
+
+.conteudo-capa p {
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.conteudo-capa input {
+    margin-top: 30px;
+    padding: 3% 10%;
+    background: none;
+    border: 1px solid #FFF;
+    color: #fff;
+}
+
+
+/*Formatting delivery*/
+
+.conteudo-delivery {
+    width: 100%;
+    padding: 3% 4%;
+    color: #FFF;
+    background: rgb(0, 18, 39) url(fundo-f.png);
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.conteudo-delivery h3 {
+    font-size: 20px;
+}
+
+.conteudo-delivery p {
+    font-size: 15px;
+    
+}
+
+
+.lado-direito {
+    float: left;
+    margin-left: 15px;
+    width: 53%;
+    text-align: left;
+}
+
+.lado-direito i {
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.lado-direito span {
+    font-size: 13px;
+    margin-left: 6px;
+}
+
+.btn-delivery {
+    clear: both;
+}
+
+.btn-delivery input {
+    margin-top: 20px;
+    
+}
+
+.phone {
+    background: url(phone.png) no-repeat;
+    width: 120px;
+    height: 240px;
+    transform: rotate(-4deg);
+    margin-left: 13px;
+    float: left;
+} 
+
+.container-conteudo {
+    margin-top: 20px;
+}
+.btn-delivery input {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    outline: none;
+    color: #FFF;
+    background: #cd4137;
+    cursor: pointer;
+}
